@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <Button
+           android:layout_marginRight="100dp"
+           android:id="@+id/amazon"
+           android:padding="50dp"
+           android:background="@drawable/amazon"
+           android:layout_gravity="center"
+           android:layout_width="150dp"
+           android:layout_height="100dp">
+       </Button>
+
+       <Button
+
+           android:id="@+id/flipcart"
+           android:layout_width="150dp"
+           android:layout_height="100dp"
+           android:layout_gravity="center"
+           android:background="@drawable/flipcart"
+           android:padding="50dp">
+
+       </Button>
+
+   </LinearLayout>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/wallmart"
+        android:padding="50dp"
+        android:background="@drawable/walmart"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="100dp">
+    </Button>
+
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/etLink"
+        android:hint="your link here"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <Button
+        android:layout_gravity="center"
+        android:text="Add"
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_black_24dp"
+        app:cnb_backgroundColor="#ff0873"
+        app:cnb_iconColor="#ffffff"
+        app:cnb_textColor="#ffffff"
+        android:title="Home">
+    </item>
+    <item
+        android:id="@+id/account"
+        android:icon="@drawable/ic_account_box_black_24dp"
+
+        app:cnb_backgroundColor="#ff0873"
+        app:cnb_iconColor="#ffffff"
+        app:cnb_textColor="#ffffff"
+        android:title="Account">
+
+    </item>
+
+    <item
+        android:id="@+id/order"
+        android:icon="@drawable/ic_all_inclusive_black_24dp"
+        app:cnb_backgroundColor="#ff0873"
+        app:cnb_iconColor="#ffffff"
+        app:cnb_textColor="#ffffff"
+        android:title="Order">
+
+    </item>
+    <item
+        android:id="@+id/medicine"
+        android:icon="@drawable/ic_local_pharmacy_black_24dp"
+        app:cnb_backgroundColor="#ff0873"
+        app:cnb_iconColor="#ffffff"
+        app:cnb_textColor="#ffffff"
+        android:title="Medicine">
+
+    </item>
+
+
+</menu>
